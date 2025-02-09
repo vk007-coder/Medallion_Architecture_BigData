@@ -1,0 +1,27 @@
+{
+    "Bronze_paths": {
+        "input_Path": "C:/Users/konde/Project_Work/Landing_Zone_Data/",
+        "sub_dirs": [
+            "raw_Customers",
+            "raw_Products",
+            "raw_Orders",
+            "raw_Order_Items"
+        ],
+        "B_output_folder": "C:/Users/konde/Project_Work/bronze_output/"
+    },
+    "Silver_path": {
+        "s_input_Path": "C:/Users/konde/Project_Work/bronze_output/",
+        "s_Output_Path": "C:/Users/konde/Project_Work/silver_output/"
+    },
+    "Gold_Paths": {
+        "g_input_Path": "C:/Users/konde/Project_Work/silver_output/",
+        "g_output_Path": "C:/Users/konde/Project_Work/gold_output/"
+    },
+    "processed_bronze": [
+        "20250208"
+    ],
+    "processed_silver": [
+        "20250208"
+    ],
+    "processed_gold": []
+}
